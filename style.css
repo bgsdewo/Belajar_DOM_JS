@@ -1,54 +1,46 @@
 body {
-	width: 80%;
-	margin: 0 auto;
+	color: #fff;
+	background: #1f2937;
+	font-family: verdana, sans-serif;
 }
 
-#banner {
-	width: 100%;
-}
-img.square {
-	width: 400px;
-	object-fit: cover;
-	height: 400px;
+.scoreboard {
+	min-height: 100vh;
 }
 
-#toc {
-	background-color: #f8f9fa;
-	border: 1px solid #a2a9b1;
-	display: table;
-	padding: 1em;
+h2 {
+	text-transform: uppercase;
+	font-size: px;
+	font-weight: 800;
 }
 
-#toc a {
-	text-decoration: none;
+.points p {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 400;
+	font-size: 80px;
+	background: #000;
+	color: #f94f6d;
+	min-width: 205px;
 }
 
-.tocnumber {
-	color: black;
+.btn-primary {
+	background: transparent;
+	color: #9aabd8;
+	border-color: #9aabd8;
+	font-size: 1.5em;
 }
 
-.bg-info {
-	background-color: #17a2b8;
+.btn-primary:hover,
+.btn-primary:active {
+	color: #fff;
+	background-color: #f94f6d;
+	border-color: #f94f6d;
 }
 
-.text-white {
-	color: white;
-}
-
-.border-danger {
-	border: 3px rgb(148, 26, 37) solid;
-}
-
-h1 {
-	color: aquamarine;
-}
-
-button {
-	width: 100px;
-	height: 100px;
-	margin: 20px;
-}
-
-.hide {
-	display: none;
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+	color: #fff;
+	background-color: #f94f6d;
+	border-color: #f94f6d;
+	box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 50%);
 }
