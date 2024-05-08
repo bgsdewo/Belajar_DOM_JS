@@ -42,3 +42,13 @@ img.square {
 h1 {
 	color: aquamarine;
 }
+
+button {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+.hide {
+	display: none;
+}
